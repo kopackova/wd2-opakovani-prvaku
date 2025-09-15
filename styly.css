@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    margin: 16px;
+}
+h1{
+    color: rgb(79, 70, 229);
+}
+h2{
+    color: rgb(99, 102, 241);
+}
+p{
+    color: rgb(31, 41, 55);
+}
+.profilovka img{
+
+    border: 5px solid rgb(79, 70, 229);
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    display: inline-block;
+}
+
+.d{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(238, 242,255);
+    padding: 10px;
+    margin: 15px;
+    border-radius: 8px;
+}
+section img{
+    width: 200px;
+}
