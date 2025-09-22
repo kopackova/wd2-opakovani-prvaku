@@ -52,7 +52,7 @@ header{
     justify-content: center;
     background-color: rgb(238, 242,255);
     padding: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     border-radius: 8px;
 }
 article img{
@@ -67,10 +67,11 @@ article{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: auto;
+    
     padding: 16px;
     margin-bottom: 15px;
 }
+
 
 footer{
     padding-top: 25px;
@@ -84,9 +85,25 @@ footer p{
         display: flex;
         flex-direction: row;
     }
+    body{
+        margin: 30px;
+    }
+    .all{
+        padding: 50px;
+    }
     section{
         display: flex;
         flex-direction: row;
-        width: 90%;
+    }
+    .dovednosti{
+        display: flex;
+        justify-content: space-between;
+    }
+    .dovednosti p{
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .uvodni-text{
+        padding-left: 30px;
     }
 }
